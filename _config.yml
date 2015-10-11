@@ -17,7 +17,7 @@ paginate:   10
 source_code: https://github.com/internetyi/internetyi.github.io
 
 # Build settings
-markdown:    kramdown
+#markdown:    kramdown
 highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
