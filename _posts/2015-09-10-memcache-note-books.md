@@ -63,7 +63,7 @@ Memcached本身就不是为了处理庞大的多媒体（large media）和巨大
 
 3）虚拟主机不让运行memcached服务
 
-     如果应用本身托管在低端的虚拟私有服务器上，像vmware, xen这类虚拟化技术并不适合运行memcached。Memcached需要接管和控制大块的内存，如果memcached管理的内存
+如果应用本身托管在低端的虚拟私有服务器上，像vmware, xen这类虚拟化技术并不适合运行memcached。Memcached需要接管和控制大块的内存，如果memcached管理的内存
 被OS或 hypervisor交换出去，memcached的性能将大打折扣。
 
 4）应用运行在不安全的环境中
