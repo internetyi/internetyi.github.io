@@ -8,7 +8,7 @@ excerpt: memcache的最佳实践方案
 
 ### memcached的基本设置 
 
-1.启动Memcache的服务器端 
+* 启动Memcache的服务器端 
 
 ```shell
 # /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
@@ -28,7 +28,7 @@ excerpt: memcache的最佳实践方案
 
 -P是设置保存Memcache的pid文件，我这里是保存在 /tmp/memcached.pid，
 
-2.如果要结束Memcache进程，执行：
+* 如果要结束Memcache进程，执行：
 
 ```shell
 # kill `cat /tmp/memcached.pid`
