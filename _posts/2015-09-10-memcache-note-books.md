@@ -9,27 +9,29 @@ excerpt: memcache的最佳实践方案
 ### memcached的基本设置 
 
 1.启动Memcache的服务器端 
-	```shell
-	# /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
-	```
-	-d选项是启动一个守护进程
+```shell
+# /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
+```
 
-	-m是分配给Memcache使用的内存数量，单位是MB，我这里是10MB， 
+-d选项是启动一个守护进程
 
-	-u是运行Memcache的用户，我这里是root， 
+-m是分配给Memcache使用的内存数量，单位是MB，我这里是10MB， 
 
-	-l是监听的服务器IP地址，如果有多个地址的话，我这里指定了服务器的IP地址192.168.0.200，
+-u是运行Memcache的用户，我这里是root， 
 
-	-p是设置Memcache监听的端口，我这里设置了12000，最好是1024以上的端口， 
+-l是监听的服务器IP地址，如果有多个地址的话，我这里指定了服务器的IP地址192.168.0.200，
 
-	-c选项是最大运行的并发连接数，默认是1024，我这里设置了256，按照你服务器的负载量来设定，
+-p是设置Memcache监听的端口，我这里设置了12000，最好是1024以上的端口， 
 
-	-P是设置保存Memcache的pid文件，我这里是保存在 /tmp/memcached.pid，
+-c选项是最大运行的并发连接数，默认是1024，我这里设置了256，按照你服务器的负载量来设定，
+
+-P是设置保存Memcache的pid文件，我这里是保存在 /tmp/memcached.pid，
 
 2.如果要结束Memcache进程，执行：
-	```shell
-	# kill `cat /tmp/memcached.pid`
-	```
+```shell
+# kill `cat /tmp/memcached.pid`
+```
+
 哈希算法将任意长度的二进制值映射为固定长度的较小二进制值，这个小的二进制值称为哈希值。哈希值是一段数据唯一且极其紧凑的数值表示形式。如果散列一段明文而且哪怕只更改该
 段落的一个字母，随后的哈希都将产生不同的值。要找到散列为同一个值的两个不同的输入，在计算上是不可能的。
 
