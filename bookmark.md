@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 书签
-menu: bookmark
+menu: Bookmark
 class: padY30 mark
 ---
 
