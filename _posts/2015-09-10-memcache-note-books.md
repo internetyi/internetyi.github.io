@@ -12,13 +12,20 @@ excerpt: memcache的最佳实践方案
 	```shell
 	# /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
 	```
-	-d选项是启动一个守护进程， 
+	-d选项是启动一个守护进程
+
 	-m是分配给Memcache使用的内存数量，单位是MB，我这里是10MB， 
+
 	-u是运行Memcache的用户，我这里是root， 
+
 	-l是监听的服务器IP地址，如果有多个地址的话，我这里指定了服务器的IP地址192.168.0.200，
+
 	-p是设置Memcache监听的端口，我这里设置了12000，最好是1024以上的端口， 
-	-c选项是最大运行的并发连接数，默认是1024，我这里设置了256，按照你服务器的负载量来设定， 
+
+	-c选项是最大运行的并发连接数，默认是1024，我这里设置了256，按照你服务器的负载量来设定，
+
 	-P是设置保存Memcache的pid文件，我这里是保存在 /tmp/memcached.pid，
+
 2.如果要结束Memcache进程，执行：
 	```shell
 	# kill `cat /tmp/memcached.pid`
@@ -31,25 +38,40 @@ excerpt: memcache的最佳实践方案
 ### 为什么要运行 memcached ？
 
 如果网站的高流量很大并且大多数的访问会造成数据库高负荷的状况下，使用 memcached 能够减轻数据库的压力。
+
 ### 适用memcached的业务场景？
+
 1）如果网站包含了访问量很大的动态网页，因而数据库的负载将会很高。由于大部分数据库请求都是读操作，那么memcached可以显著地减小数据库负载。
+
 2）如果数据库服务器的负载比较低但CPU使用率很高，这时可以缓存计算好的结果（ computed objects ）和渲染后的网页模板（enderred templates）。
+
 3）利用memcached可以缓存session数据、临时数据以减少对他们的数据库写操作。
+
 4）缓存一些很小但是被频繁访问的文件。
+
 5）缓存Web 'services'（非IBM宣扬的Web Services，译者注）或RSS feeds的结果.。
 
 ### 不适用memcached的业务场景？
 
 1）缓存对象的大小大于1MB
+
 Memcached本身就不是为了处理庞大的多媒体（large media）和巨大的二进制块（streaming huge blobs）而设计的。
+
 2）key的长度大于250字符
+
 3）虚拟主机不让运行memcached服务
+
      如果应用本身托管在低端的虚拟私有服务器上，像vmware, xen这类虚拟化技术并不适合运行memcached。Memcached需要接管和控制大块的内存，如果memcached管理的内存
 被OS或 hypervisor交换出去，memcached的性能将大打折扣。
+
 4）应用运行在不安全的环境中
+
 Memcached为提供任何安全策略，仅仅通过telnet就可以访问到memcached。如果应用运行在共享的系统上，需要着重考虑安全问题。
+
 5）业务本身需要的是持久化数据或者说需要的应该是database
+
 ### 能够遍历memcached中所有的item吗？
+
 不能，这个操作的速度相对缓慢且阻塞其他的操作（这里的缓慢时相比memcached其他的命令）。memcached所有非调试（non-debug）命令，例如add, set, get, fulsh等无论
 memcached中存储了多少数据，它们的执行都只消耗常量时间。任何遍历所有item的命令执行所消耗的时间，将随着memcached中数据量的增加而增加。当其他命令因为等待（遍历所
 有item的命令执行完毕）而不能得到执行，因而阻塞将发生。
