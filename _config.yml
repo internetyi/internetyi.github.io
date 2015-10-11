@@ -36,7 +36,7 @@ gems:
   - jemoji
   - rouge
   # # # - jekyll-mentions
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-html-pipeline
 
 disqus:
