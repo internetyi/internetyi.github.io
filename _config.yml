@@ -40,7 +40,7 @@ gems:
   - jekyll-html-pipeline
 
 disqus:
-  id: overtrueme
+  id: zhny
 
 google:
     analytics_id: UA-55452630-1
