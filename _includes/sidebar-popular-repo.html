@@ -1,5 +1,5 @@
-<h3>Popular Repositories</h3>
 {% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
+<h3>Popular Repositories</h3>
 {% for repo in repos %}
     {% if site.popular_repos contains repo.name %}
     <section class="repo-card">
