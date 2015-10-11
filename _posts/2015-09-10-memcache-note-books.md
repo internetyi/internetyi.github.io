@@ -5,6 +5,7 @@ excerpt: memcache的最佳实践方案
 ---
 
 ## 基本问题
+
 ### memcached的基本设置 
 
 1.启动Memcache的服务器端 
