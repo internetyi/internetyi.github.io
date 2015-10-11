@@ -10,7 +10,7 @@ excerpt: PHP代码规范检查工具PHPCS、PHP代码质量检测工具PHPMD的�
 
 有以下方式安装 PHPCS:
 
-##### 使用 `composer`:
+##### 使用`composer`:
 
 ```
 composer global require "squizlabs/php_codesniffer=*"
