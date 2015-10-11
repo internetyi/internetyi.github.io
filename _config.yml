@@ -1,20 +1,20 @@
-title: overtrue - 安正超博客
-name: overtrue
-email: anzhengchao@gmail.com
-description: 安正超，网名overtrue，PHP工程师，从事web相关的开发工作。开源爱好者，GitHub:https://github.com/overtrue。
+title: zhny's blog - zhny的博客
+name: zhny
+email: zhangzhny1@gmail.com
+description: 网名zhny，PHP工程师，从事web相关的开发工作。开源爱好者，GitHub:https://github.com/internetyi
 keywords: Laravel,Laravel教程,Laravel安装,Laravel视频,安正超,overtrue,Pinyin,汉字转拼音
 skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text, OmniGaffale, OminiPlan]
 
 timezone:    PRC
 encoding: "utf-8"
 
-url: http://overtrue.me
+url: http://github.zhnytech.com
 baseurl:  "/"
-domain:    overtrue.me
+domain:    github.zhnytech.me
 permalink:     /articles/:year/:month/:title.html
 paginate_path: 'page:num'
 paginate:   10
-source_code: https://github.com/overtrue/overtrue.github.io
+source_code: https://github.com/internetyi/internetyi.github.io
 
 # Build settings
 markdown:    kramdown
@@ -56,12 +56,12 @@ navs:
     label: Open-Source
 
   -
-    href: https://github.com/overtrue
+    href: https://github.com/internetyi
     label: GitHub
     target: _blank
 
   -
-    href: http://weibo.com/44294631
+    href: http://weibo.com/internetyi
     label: Weibo
     target: _blank
 
