@@ -32,8 +32,7 @@
       jQuery(document).ready(function($) {
         // geopattern
         $('.geopattern').each(function(){
-          // $(this).geopattern($(this).data('pattern-id'));
-          $(this).geopattern('GitHub');
+          $(this).geopattern($(this).data('pattern-id'));
         });
 
         // share
