@@ -35,6 +35,7 @@ kramdown:
 gems:
   - jemoji
   - rouge
+  - jekyll-paginate
   # # # - jekyll-mentions
   - jekyll-sitemap
   #- jekyll-html-pipeline
