@@ -37,7 +37,7 @@ gems:
   - rouge
   # # # - jekyll-mentions
   - jekyll-sitemap
-  - jekyll-html-pipeline
+  #- jekyll-html-pipeline
 
 disqus:
   id: zhny
