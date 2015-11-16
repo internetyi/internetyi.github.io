@@ -12,7 +12,7 @@ url: http://blog.zhnytech.com
 baseurl:  "/"
 domain:    blog.zhnytech.com
 permalink:     /articles/:year/:month/:title.html
-paginate_path: 'page:num'
+paginate_path: 'page/:num'
 paginate:   10
 source_code: https://github.com/internetyi/internetyi.github.io
 
