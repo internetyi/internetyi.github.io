@@ -2,15 +2,15 @@ title: zhny's blog - zhny的博客
 name: zhny's blog
 email: zhangzhny1@gmail.com
 description: 网名zhny，PHP工程师，从事web相关的开发工作。开源爱好者，GitHub:https://github.com/internetyi
-keywords: Laravel,Laravel教程,Laravel安装,Laravel视频,安正超,overtrue,Pinyin,汉字转拼音
+keywords: Laravel,Laravel教程,Laravel安装,Laravel视频,Pinyin,汉字转拼音
 skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text, OmniGaffale, OminiPlan]
 
 timezone:    PRC
 encoding: "utf-8"
 
-url: http://github.zhnytech.com
+url: http://blog.zhnytech.com
 baseurl:  "/"
-domain:    github.zhnytech.me
+domain:    blog.zhnytech.com
 permalink:     /articles/:year/:month/:title.html
 paginate_path: 'page:num'
 paginate:   10
@@ -53,7 +53,7 @@ navs:
     label: Home
 
   -
-    href: /open-source
+    href: /open-source.html
     label: Open-Source
 
   -
@@ -67,11 +67,11 @@ navs:
     target: _blank
 
   -
-    href: /bookmark
+    href: /bookmark.html
     label: Bookmark
 
   -
-    href: /about
+    href: /about.html
     label: About
 
 popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
