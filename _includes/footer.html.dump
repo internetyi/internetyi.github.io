@@ -1,8 +1,8 @@
     <footer class="container">
         <div class="site-footer" role="contentinfo">
             <div class="copyright left mobile-block">
-                    漏 2015
-                    <span title="github.zhnytech.com">github.zhnytech.com</span>
+                    &copy; 2015
+                    <span title="blog.zhnytech.com">blog.zhnytech.com</span>
                     <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
             </div>
 
