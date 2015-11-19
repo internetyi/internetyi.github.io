@@ -322,4 +322,4 @@ iOS 下易用的博客编辑器，支持 Markdown。可以同步到 Dropbox 和 
 
 * * *
 
-原文 [78 Tools for Writing and Previewing Markdown](http://mashable.com/2013/06/24/markdown-tools/)  
+原文 [78 Tools for Writing and Previewing Markdown](http://mashable.com/2013/06/24/markdown-tools/) 
