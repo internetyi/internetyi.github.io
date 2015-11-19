@@ -7,31 +7,31 @@ excerpt: Markdown是一种易写易读的文本标记语言。本文介绍了编
 [Markdown](http://whatismarkdown.com/) 是一种易写易读的文本标记语言。本文介绍了编写、查看 Markdown 的78种工具，涵盖桌面端、移动端和 web 端。
 
 ![Markdown tools](http://static.zhnytech.com/blog/2015/10/7049bb8c4bb35ed648a3872b0ba9ad0f.jpeg)
-### 1. [Markable](http://markable.in/)
+###  1. [Markable](http://markable.in/)
 
 强大的在线 Markdown 编辑器，支持语法高亮、自动缩进、高亮所在行、显示行数、即时预览。它支持将 HTML 转换成 Markdown。 可以配合 [Evernote](http://mashable.com/category/evernote/)、[Dropbox](http://mashable.com/category/dropbox/) 使用。
-### 2. [Markdown Here](http://markdown-here.com/)
+###  2. [Markdown Here](http://markdown-here.com/)
 
 使用 Markdown 撰写邮件。可以插入表格、代码片段和数学公式。支持 Chrome、Firefox、Safari 和 Thunderbird。
-### 3. [MultiMarkdown Composer](http://multimarkdown.com/)
+###  3. [MultiMarkdown Composer](http://multimarkdown.com/)
 
 Mac OS X 下的 Markdown 编辑器，支持 [MultiMarkdown Syntax](http://fletcherpenney.net/multimarkdown/) 语法。
-### 4. [Scribble](http://www.tryscribble.com/)
+###  4. [Scribble](http://www.tryscribble.com/)
 
 使用 Markdown 创建简单的 wiki 页面。
-### 5. [Marked App](http://markedapp.com/)
+###  5. [Marked App](http://markedapp.com/)
 
 Mac OS X 下的 Markdown 编辑器。支持 MultiMarkdown 语法。可以定制 CSS 及 预处理器。
-### 6. [Write Monkey](http://writemonkey.com/index.php)
+###  6. [Write Monkey](http://writemonkey.com/index.php)
 
 Windows 下的 Markdown 编辑器。轻量、快速，极度简洁的界面帮助你将注意力集中在撰写上。
-### 7. [iA Writer](http://www.iawriter.com/mac/)
+###  7. [iA Writer](http://www.iawriter.com/mac/)
 
 Mac OS X 下的 Markdown 编辑器。 Microsoft Word 2007 .docx 互转。iCloud、Dropbox 同步。聚焦模式（聚焦当前行）。
-### 8. [Mou](http://mouapp.com/)
+###  8. [Mou](http://mouapp.com/)
 
 Mac OS X 下的 Markdown 编辑器。方便的action，增强的 CJK 支持，文字竖排显示，定制主题和 CSS，自动补全，发布到 Scriptogr.am 和 Tumblr。
-### 9. [Markdown Dingus](http://daringfireball.net/projects/markdown/dingus)
+###  9. [Markdown Dingus](http://daringfireball.net/projects/markdown/dingus)
 
 在线转换 Markdown 为 HTML。
 
