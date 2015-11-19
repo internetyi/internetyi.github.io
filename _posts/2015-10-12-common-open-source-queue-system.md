@@ -169,5 +169,5 @@ ActiveMQ crashed constantly under load.
 [http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/](http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/)   
 [https://news.ycombinator.com/item?id=5531192](https://news.ycombinator.com/item?id=5531192)  
 [http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/](http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/)  
-[http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/](http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/)   
+[http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/](http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/)
 
