@@ -11,7 +11,7 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 
 [http://blog.segmentfault.com/weakish/1190000000358325](http://blog.segmentfault.com/weakish/1190000000358325)
 
-##工具
+## 工具
 
 * PuPHPet：[https://puphpet.com/](https://puphpet.com/)
 * 常用框架：[https://github.com/codeguy/php-the-right-way/wiki/Frameworks](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
@@ -20,7 +20,7 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 * [http://phpsh.org/](http://phpsh.org/)
 * [https://github.com/CHH/php-build](https://github.com/CHH/php-build)
 
-###CDN公共库
+### CDN公共库
 * [http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs)
 * [http://jscdn.upai.com/](http://jscdn.upai.com/)
 * [http://lib.sinaapp.com/](http://lib.sinaapp.com/)
@@ -31,7 +31,7 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 * [http://bbs.aliyun.com/read.php?tid=139395](http://bbs.aliyun.com/read.php?tid=139395)
 * [http://open.bootcss.com/](http://open.bootcss.com/)
 
-###源码搜索
+### 源码搜索
 * [http://code.ohloh.net/](http://code.ohloh.net/)
 * [http://www.krugle.com/](http://www.krugle.com/)
 * [http://searchcode.com/](http://searchcode.com/)
@@ -39,14 +39,14 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 * [http://www.symbolhound.com/](http://www.symbolhound.com/)
 * [http://www.merobase.com/](http://www.merobase.com/)
 
-##Composer
+## Composer
 * [Composer (作曲家)，PHP 的依赖管理器](https://github.com/huanghua581/notes/blob/master/PHP/composer/00-intro.md)
 * [Composer 的库](https://github.com/huanghua581/notes/blob/master/PHP/composer/02-libraries.md)
 * [Composer 结构](https://github.com/huanghua581/notes/blob/master/PHP/composer/04-schema.md)
 
 * [https://github.com/5-say/composer-doc-cn](https://github.com/5-say/composer-doc-cn)
 
-##修炼内功
+## 修炼内功
 
 * PHP之道：[http://www.phptherightway.com/](http://www.phptherightway.com/)
 * PHP之道中文版：[http://wulijun.github.io/php-the-right-way/](http://wulijun.github.io/php-the-right-way/)
@@ -61,7 +61,7 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 * [http://wuduoyi.com/note/hhvm/](http://wuduoyi.com/note/hhvm/)
 
 
-###使用Symfony2的组件创建自己的PHP框架
+### 使用Symfony2的组件创建自己的PHP框架
 
 * [第一部分](https://github.com/huanghua581/notes/tree/master/PHP/symfony/create-your-own-framework-on-top-of-the-symfony2-components/1.md)
 * [第二部分](https://github.com/huanghua581/notes/tree/master/PHP/symfony/create-your-own-framework-on-top-of-the-symfony2-components/2.md)
@@ -79,7 +79,7 @@ excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
 
 [https://github.com/happen-zhang/symfony2-jobeet-tutorial](https://github.com/happen-zhang/symfony2-jobeet-tutorial)
 
-##Github 推荐
+## Github 推荐
 
 * 正则 : [https://github.com/VerbalExpressions/PHPVerbalExpressions](https://github.com/VerbalExpressions/PHPVerbalExpressions)
 * html2markdown : [https://github.com/nickcernis/html2markdown](https://github.com/nickcernis/html2markdown)

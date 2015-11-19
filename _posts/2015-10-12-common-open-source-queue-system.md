@@ -4,7 +4,7 @@ title: 常见开源消息系统
 excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之间的耦合。
 ---
 
-#常见开源消息系统
+# 常见开源消息系统
 
 消息系统的作用：异步处理、削减峰值、减少组件之间的耦合。
 
@@ -20,7 +20,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 避免单点故障
 * 负载均衡
 
-##常见消息系统协议:
+## 常见消息系统协议:
 
 1. STOMP
 2. AMQP
@@ -30,7 +30,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 
 **1、2 是不错的可选开源组件：**
 
-###1. Kafka/MetaQ: 广泛用于 Linkedin 内部 (类似有 Java 版本的国产 MetaQ)
+### 1. Kafka/MetaQ: 广泛用于 Linkedin 内部 (类似有 Java 版本的国产 MetaQ)
 
 由于优先考虑吞吐，更加适合大数据量的消息收集和处理，比如日志分析、用户行为信息实时报表、集群状态信息收集和分析。
 
@@ -51,7 +51,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 [http://dirlt.com/index.html](http://dirlt.com/index.html)   
 [http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes](http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes)  
 
-###2. NSQ – Golang
+### 2. NSQ – Golang
 
 无中心设计、节点自动注册和发现。可以考虑作为内部通讯框架的基础。
 
@@ -67,7 +67,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 [https://github.com/davegardnerisme/nsqphp](https://github.com/davegardnerisme/nsqphp)   
 [http://www.davegardner.me.uk/blog/tag/nsq/](http://www.davegardner.me.uk/blog/tag/nsq/)
 
-###3. Beanstalkd
+### 3. Beanstalkd
 
 * 支持持久化 binlog 设计，重启消息不丢失
 * 一般
@@ -86,7 +86,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 [https://github.com/kr/beanstalkd/wiki/Tools](https://github.com/kr/beanstalkd/wiki/Tools)  
 [https://github.com/pda/pheanstalk](https://github.com/pda/pheanstalk)  
 
-###4. Redis
+### 4. Redis
 
 * 需要自己封装 Pub/Sub
 * 基于 Redis 的复制高可用
@@ -100,7 +100,7 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 不支持持久化，只提供消息分发, 性能最好
 * 无 Broker 设计, 无中心故障
 
-####RabbitMQ
+#### RabbitMQ
 
 * 2500 job/s 入队列 1300 job/s 出队列
 * 适合小消息
@@ -110,59 +110,59 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 有评论: RabbitMQ could not enqueue/dequeue fast enough.   
 [https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html](https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html) 
 
-####RESTMQ
+#### RESTMQ
 
 [http://restmq.com/](http://restmq.com/)
 
-####MemcacheQ
+#### MemcacheQ
 
 [http://memcachedb.org/memcacheq/](http://memcachedb.org/memcacheq/)
 
-####HTTPSQS
+#### HTTPSQS
 
 [https://code.google.com/p/httpsqs/](https://code.google.com/p/httpsqs/)
 
-####Gearman
+#### Gearman
 
 [http://gearman.org/presentations](http://gearman.org/presentations)
 [https://code.google.com/p/shard-query/](https://code.google.com/p/shard-query/)
 
-####Kestrel
+#### Kestrel
 
 [http://robey.github.io/kestrel/](http://robey.github.io/kestrel/)
 [http://robey.github.io/kestrel/docs/guide.html](http://robey.github.io/kestrel/docs/guide.html)
 
-####HornetQ
+#### HornetQ
 
 性能差不考虑[3]
 
-####Resque
+#### Resque
 
 3800 jobs/s 入队列 300 jobs/s 出队列  
 [https://github.com/blog/542-introducing-resque](https://github.com/blog/542-introducing-resque)  
 基于 Redis 的消息队列  
 
-####Starling
+#### Starling
 
 [https://github.com/starling/starling](https://github.com/starling/starling)
 
-####SquirrelMQ
+#### SquirrelMQ
 
 [https://code.google.com/p/squirrel-message-queue/](https://code.google.com/p/squirrel-message-queue/)
 
-####Sparrow – Ruby
+#### Sparrow – Ruby
 
 [https://code.google.com/p/sparrow/](https://code.google.com/p/sparrow/)
 
-####Apache ActiveMQ
+#### Apache ActiveMQ
 
 ActiveMQ crashed constantly under load.
 
-####STOMP HTTP 协议
+#### STOMP HTTP 协议
 
 [http://stomp.github.io/stomp-specification-1.2.html](http://stomp.github.io/stomp-specification-1.2.html)
 
-##参考:
+## 参考:
 
 [http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html](http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html)  
 [https://blog.serverdensity.com/queueing-mongodb-using-mongodb/](https://blog.serverdensity.com/queueing-mongodb-using-mongodb/)  
