@@ -18,10 +18,14 @@ source_code: https://github.com/internetyi/internetyi.github.io
 static: http://static.zhnytech.com/blog
 
 # Build settings
-#markdown:    kramdown
+markdown:    kramdown
 highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
+
+pygments: true
+safe: true
+auto: true
 
 source:      .
 destination: ./_site
