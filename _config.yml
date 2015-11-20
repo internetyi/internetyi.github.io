@@ -37,9 +37,11 @@ gems:
   - jemoji
   - rouge
   - jekyll-paginate
-  # - jekyll-mentions
   - jekyll-sitemap
-  # - jekyll-html-pipeline
+
+
+#jekyll-html-pipeline
+#jekyll-mentions
 
 disqus:
   id: zhny
