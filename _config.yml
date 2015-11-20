@@ -38,9 +38,7 @@ gems:
   - rouge
   - jekyll-paginate
 
-#jekyll-sitemap
-#jekyll-html-pipeline
-#jekyll-mentions
+
 
 disqus:
   id: zhny
