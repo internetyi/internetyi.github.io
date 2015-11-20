@@ -37,9 +37,8 @@ gems:
   - jemoji
   - rouge
   - jekyll-paginate
-  - jekyll-sitemap
 
-
+#jekyll-sitemap
 #jekyll-html-pipeline
 #jekyll-mentions
 
