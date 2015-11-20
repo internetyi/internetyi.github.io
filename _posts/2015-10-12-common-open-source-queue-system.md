@@ -43,19 +43,19 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 需要策略避免重复消息, 消费者更新 Zookeeper 的 offset 的方式 (MetaQ 已经提供了几种方式避免消息重复)
 * MetaQ 提供 HTTP 接口
 
-[http://www.mail-archive.com/kafka-users@incubator.apache.org/msg02082.html](http://www.mail-archive.com/kafka-users@incubator.apache.org/msg02082.html)
-[https://github.com/neophenix/StateOfTheMQ/blob/master/state_of_the_mq.pdf?raw=true](https://github.com/neophenix/StateOfTheMQ/blob/master/state_of_the_mq.pdf?raw=true)   
-[http://s.urge.omniti.net/i/content/slides/Surge2012-ErikOnen_Kafka_Messaging-Paradigms.pdf](http://s.urge.omniti.net/i/content/slides/Surge2012-ErikOnen_Kafka_Messaging-Paradigms.pdf)  
-[http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf](http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf)   
-[http://dirlt.com/kafka.html](http://dirlt.com/kafka.html)   
-[http://dirlt.com/index.html](http://dirlt.com/index.html)   
-[http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes](http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes)  
+[http://www.mail-archive.com/kafka-users@incubator.apache.org/msg02082.html](http://www.mail-archive.com/kafka-users@incubator.apache.org/msg02082.html){:target="_blank"}
+[https://github.com/neophenix/StateOfTheMQ/blob/master/state_of_the_mq.pdf?raw=true](https://github.com/neophenix/StateOfTheMQ/blob/master/state_of_the_mq.pdf?raw=true){:target="_blank"}   
+[http://s.urge.omniti.net/i/content/slides/Surge2012-ErikOnen_Kafka_Messaging-Paradigms.pdf](http://s.urge.omniti.net/i/content/slides/Surge2012-ErikOnen_Kafka_Messaging-Paradigms.pdf){:target="_blank"}  
+[http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf](http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf){:target="_blank"}   
+[http://dirlt.com/kafka.html](http://dirlt.com/kafka.html){:target="_blank"}   
+[http://dirlt.com/index.html](http://dirlt.com/index.html){:target="_blank"}   
+[http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes](http://wiki.secondlife.com/wiki/Message_Queue_Evaluation_Notes){:target="_blank"}  
 
 ### 2. NSQ – Golang
 
 无中心设计、节点自动注册和发现。可以考虑作为内部通讯框架的基础。
 
-[https://github.com/bitly/nsq](https://github.com/bitly/nsq)
+[https://github.com/bitly/nsq](https://github.com/bitly/nsq){:target="_blank"}
 
 * 追求简单部署
 * 追求高可用、避免单点故障、无中心设计
@@ -63,9 +63,9 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 生产者消费者自动发现、消费者连接所有生产者、向消费者推的模式
 * 提供 HTTP 接口
 
-[https://speakerdeck.com/snakes/nsq-nyc-golang-meetup](https://speakerdeck.com/snakes/nsq-nyc-golang-meetup)    
-[https://github.com/davegardnerisme/nsqphp](https://github.com/davegardnerisme/nsqphp)   
-[http://www.davegardner.me.uk/blog/tag/nsq/](http://www.davegardner.me.uk/blog/tag/nsq/)
+[https://speakerdeck.com/snakes/nsq-nyc-golang-meetup](https://speakerdeck.com/snakes/nsq-nyc-golang-meetup){:target="_blank"}    
+[https://github.com/davegardnerisme/nsqphp](https://github.com/davegardnerisme/nsqphp){:target="_blank"}   
+[http://www.davegardner.me.uk/blog/tag/nsq/](http://www.davegardner.me.uk/blog/tag/nsq/){:target="_blank"}
 
 ### 3. Beanstalkd
 
@@ -83,8 +83,8 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 无主从同步复制机制
 * 最好单机多实例部署
 
-[https://github.com/kr/beanstalkd/wiki/Tools](https://github.com/kr/beanstalkd/wiki/Tools)  
-[https://github.com/pda/pheanstalk](https://github.com/pda/pheanstalk)  
+[https://github.com/kr/beanstalkd/wiki/Tools](https://github.com/kr/beanstalkd/wiki/Tools){:target="_blank"}  
+[https://github.com/pda/pheanstalk](https://github.com/pda/pheanstalk){:target="_blank"}  
 
 ### 4. Redis
 
@@ -108,29 +108,29 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 * 底层为 Erlang 实现
 
 有评论: RabbitMQ could not enqueue/dequeue fast enough.   
-[https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html](https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html) 
+[https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html](https://blogs.vmware.com/vfabric/2013/04/how-fast-is-a-rabbit-basic-rabbitmq-performance-benchmarks.html){:target="_blank"} 
 
 #### RESTMQ
 
-[http://restmq.com/](http://restmq.com/)
+[http://restmq.com/](http://restmq.com/){:target="_blank"}
 
 #### MemcacheQ
 
-[http://memcachedb.org/memcacheq/](http://memcachedb.org/memcacheq/)
+[http://memcachedb.org/memcacheq/](http://memcachedb.org/memcacheq/){:target="_blank"}
 
 #### HTTPSQS
 
-[https://code.google.com/p/httpsqs/](https://code.google.com/p/httpsqs/)
+[https://code.google.com/p/httpsqs/](https://code.google.com/p/httpsqs/){:target="_blank"}
 
 #### Gearman
 
-[http://gearman.org/presentations](http://gearman.org/presentations)
-[https://code.google.com/p/shard-query/](https://code.google.com/p/shard-query/)
+[http://gearman.org/presentations](http://gearman.org/presentations){:target="_blank"}
+[https://code.google.com/p/shard-query/](https://code.google.com/p/shard-query/){:target="_blank"}
 
 #### Kestrel
 
-[http://robey.github.io/kestrel/](http://robey.github.io/kestrel/)
-[http://robey.github.io/kestrel/docs/guide.html](http://robey.github.io/kestrel/docs/guide.html)
+[http://robey.github.io/kestrel/](http://robey.github.io/kestrel/){:target="_blank"}
+[http://robey.github.io/kestrel/docs/guide.html](http://robey.github.io/kestrel/docs/guide.html){:target="_blank"}
 
 #### HornetQ
 
@@ -139,20 +139,20 @@ excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之�
 #### Resque
 
 3800 jobs/s 入队列 300 jobs/s 出队列  
-[https://github.com/blog/542-introducing-resque](https://github.com/blog/542-introducing-resque)  
+[https://github.com/blog/542-introducing-resque](https://github.com/blog/542-introducing-resque){:target="_blank"}  
 基于 Redis 的消息队列  
 
 #### Starling
 
-[https://github.com/starling/starling](https://github.com/starling/starling)
+[https://github.com/starling/starling](https://github.com/starling/starling){:target="_blank"}
 
 #### SquirrelMQ
 
-[https://code.google.com/p/squirrel-message-queue/](https://code.google.com/p/squirrel-message-queue/)
+[https://code.google.com/p/squirrel-message-queue/](https://code.google.com/p/squirrel-message-queue/){:target="_blank"}
 
 #### Sparrow – Ruby
 
-[https://code.google.com/p/sparrow/](https://code.google.com/p/sparrow/)
+[https://code.google.com/p/sparrow/](https://code.google.com/p/sparrow/){:target="_blank"}
 
 #### Apache ActiveMQ
 
@@ -160,16 +160,16 @@ ActiveMQ crashed constantly under load.
 
 #### STOMP HTTP 协议
 
-[http://stomp.github.io/stomp-specification-1.2.html](http://stomp.github.io/stomp-specification-1.2.html)
+[http://stomp.github.io/stomp-specification-1.2.html](http://stomp.github.io/stomp-specification-1.2.html){:target="_blank"}
 
 ## 参考:
 
-[http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html](http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html)  
-[https://blog.serverdensity.com/queueing-mongodb-using-mongodb/](https://blog.serverdensity.com/queueing-mongodb-using-mongodb/)  
-[http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/](http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/)   
-[https://news.ycombinator.com/item?id=5531192](https://news.ycombinator.com/item?id=5531192)  
-[http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/](http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/)  
-[http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/](http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/)
+[http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html](http://hiramchirino.com/stomp-benchmark/ec2-c1.xlarge/index.html){:target="_blank"}  
+[https://blog.serverdensity.com/queueing-mongodb-using-mongodb/](https://blog.serverdensity.com/queueing-mongodb-using-mongodb/){:target="_blank"}  
+[http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/](http://x-aeon.com/wp/2013/04/10/a-quick-message-queue-benchmark-activemq-rabbitmq-hornetq-qpid-apollo/){:target="_blank"}   
+[https://news.ycombinator.com/item?id=5531192](https://news.ycombinator.com/item?id=5531192){:target="_blank"}  
+[http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/](http://www.javaplex.com/blog/high-performance-message-queues-get-reviewed/){:target="_blank"}  
+[http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/](http://adam.heroku.com/past/2010/4/24/beanstalkasimpleandfastqueueingbackend/){:target="_blank"}
 
 
  
