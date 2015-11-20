@@ -23,10 +23,6 @@ highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
 
-pygments: true
-safe: true
-auto: true
-
 source:      .
 destination: ./_site
 
