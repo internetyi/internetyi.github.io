@@ -33,13 +33,7 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-gems:
-  #- jemoji
-  - rouge
-  - jekyll-paginate
-  #  - jekyll-mentions
-  - jekyll-sitemap
-  # - jekyll-html-pipeline
+
 
 disqus:
   id: zhny
