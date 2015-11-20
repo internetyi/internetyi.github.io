@@ -34,11 +34,12 @@ kramdown:
   enable_coderay: true
 
 gems:
-  - jemoji
+  #- jemoji
   - rouge
   - jekyll-paginate
-
-
+  #  - jekyll-mentions
+  - jekyll-sitemap
+  # - jekyll-html-pipeline
 
 disqus:
   id: zhny
