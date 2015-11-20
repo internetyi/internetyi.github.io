@@ -41,13 +41,14 @@ gems:
   - jekyll-sitemap
   #- jekyll-html-pipeline
 
+
 disqus:
   id: zhny
 
 google:
     analytics_id: UA-55452630-1
 
-# navigation
+# navigations
 navs:
   -
     href: /
