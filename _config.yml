@@ -38,7 +38,7 @@ gems:
   - rouge
   - jekyll-paginate
   # # # - jekyll-mentions
- # - jekyll-sitemap
+  - jekyll-sitemap
   #- jekyll-html-pipeline
 
 disqus:
