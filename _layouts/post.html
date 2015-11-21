@@ -28,11 +28,11 @@ layout: default
                     {{ content }}
             </article>
             <div class="entry-nav">
-                {% if page.previous %}
-                    上一篇：<a href="{{ page.previous.url }}" class="previous-link">{{ page.previous.title | truncatewords:8 }}</a>
-                {% endif %}
                 {% if page.next %}
                     下一篇：<a href="{{ page.next.url }}" class="next-link">{{ page.next.title | truncatewords:8 }}</a>
+                {% endif %}
+                {% if page.previous %}
+                    上一篇：<a href="{{ page.previous.url }}" class="previous-link">{{ page.previous.title | truncatewords:8 }}</a>
                 {% endif %}
             </div>
             <div class="share">
