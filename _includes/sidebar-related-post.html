@@ -11,10 +11,10 @@
                     <p class="repo-card-description">{{ post.excerpt | strip_html | strip | truncate:20 }}</p>
                    <div class="repo-card-meta">
                         <span class="meta-info tooltipped tooltipped-n PHP" aria-label="{{ post.categorie }} 分类">
-                            <span class="octicon octicon-versions"></span> {{ post.categorie }} 
+                            <span class="octicon octicon-versions"></span> {{ post.categorie | truncate:5}} 
                         </span>
                         <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.tags | array_to_sentence_string }} 标签">
-                            <span class="octicon octicon-tag"></span> {{ post.tags | first }}
+                            <span class="octicon octicon-tag"></span> {{ post.tags | first | truncate:5}}
                         </span>
                         <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.date | date: "%Y/%m/%d" }} 发布">
                             <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
