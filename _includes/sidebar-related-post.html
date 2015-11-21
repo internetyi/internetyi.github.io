@@ -10,10 +10,10 @@
                 <div class="repo-card-body">
                     <p class="repo-card-description">{{ post.excerpt | strip_html | strip | truncate:50 }}</p>
                    <div class="repo-card-meta">
-                        <span class="meta-info tooltipped tooltipped-n PHP" aria-label="{{ post.categories | join: " " | truncate:30 }} ">
+                        <span class="meta-info tooltipped tooltipped-n PHP" aria-label="{{ post.categories | join: " " | default: "暂无" | truncate:30 }} ">
                             <span class="octicon octicon-versions"></span> 分类
                         </span>
-                        <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.tags | join: " " | truncate:30 }} ">
+                        <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.tags | join: " " | default: "暂无" | truncate:30 }} ">
                             <span class="octicon octicon-tag"></span> 标签
                         </span>
                         <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.date | date: "%Y/%m/%d" }}">
