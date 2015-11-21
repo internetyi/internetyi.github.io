@@ -2,6 +2,8 @@
 layout: post
 title: 让你的 Laravel 应用与官方保持同步
 excerpt: 同步你的项目结构，保持与官方新版一致，而不是每次一升级就下载覆盖。
+categories: [Linux]
+tags: [Git]
 ---
 
 ## 解决什么问题？

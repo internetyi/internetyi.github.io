@@ -2,6 +2,8 @@
 layout: post
 title: centos 编译安装最新版 Git
 excerpt: 在 centos 系统下编译安装 Git 的最新版本笔记
+categories: [Linux]
+tags: [centos, Git]
 ---
 
 ## 安装依赖包

@@ -2,6 +2,8 @@
 layout: post
 title: PHP的弱类型实现
 excerpt: PHP中的弱类型变量的实现原理。
+categories: [后端开发]
+tags: [PHP]
 ---
 
 PHP是弱类型，动态的语言脚本。在申明一个变量的时候，并不需要指明它保存的数据类型。例如：

@@ -2,6 +2,8 @@
 layout: post
 title: Laravel拓展jenssegers/laravel-mongodb与MySQL关联查询字段类型不一致问题解决方案
 excerpt: jenssegers/laravel-mongodb与MySQL关联查询时字段类型不一致导致查询不到结果的问题解决。
+categories: [后端开发]
+tags: [Mongo, Msql, PHP]
 ---
 
 当我们在存储mongo数据的时候，整型字段存储的值为`NumberLong`格式，那么如果这个id来自于MySQL，在使用MySQL模型与MongoDB关联查询时就会踩到这个坑，从jenssegers/laravel-mongodb生成的SQL可以看到类似这样的结果：

@@ -2,11 +2,12 @@
 layout: post
 title: 在Laravel外使用Eloquent（二）- 分页问题
 excerpt: 在Laravel外使用Eloquent时分页问题的处理
+categories: [后端开发]
+tags: [Laravel, Eloquent, PHP]
 ---
 
 在上一篇[《在Laravel外使用Eloquent（一）》](/2014/10/30/using-eloquent-outside-laravel.html) 中我们演示了如何引入Eloquent以及基本使用，但是如果细心的朋友肯定会发现，当你在使用paginate(15)来分页的时候是会报错的。因为我们没有依赖laravel的pagination模块。但是引入那个模块同时它内部依赖了symfony的http-foundation模块，意味着为了一个分页功能我们要装好多东西。于是我就实现了一个比较简单的分页类：
 
-代码见：[https://github.com/overtrue/rester](https://github.com/overtrue/rester)
 
 ```php
 <?php
@@ -15,16 +16,6 @@ namespace Rester;
 
 /**
  * Paginator.php
- *
- * (c) 2014 overtrue <anzhengchao@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- *
- * @author overtrue <anzhengchao@gmail.com>
- * @github https://github.com/overtrue
- * @url    http://overtrue.me
- * @date   2014-10-23T20:05:33
  */
 
 use Closure;
@@ -319,10 +310,6 @@ Capsule::setPaginator(function() use ($app, $config) {
 
 //...
 ```
-完整的eloquent初始化步骤请参考：
-
-https://github.com/overtrue/rester/blob/master/start/eloquent.php
-
 
 然后我们就可以正常使用分页功能了：
 

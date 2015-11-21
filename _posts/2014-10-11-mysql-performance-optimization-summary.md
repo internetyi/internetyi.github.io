@@ -2,6 +2,8 @@
 layout: post
 title: MySQL性能优化小结
 excerpt: 数据库设计和查询优化、服务器端优化以及存储引擎的选择，缓存优化技巧。
+categories: [后端开发]
+tags: [Mysql]
 ---
 
 # 一.数据库设计和查询优化

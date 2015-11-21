@@ -2,6 +2,8 @@
 layout: post
 title: Laravel 获取当前控制器名称或方法
 excerpt: 在 Laravel 项目中获取当前被调用的控制器名称和方法
+categories: [后端开发]
+tags: [Laravel, PHP]
 ---
 
 我们有时候需要获取当前 Laravel 项目的控制器或者方法名，框架默认是不会提供单独的方法的，框架只提供了如下的方法：
@@ -52,8 +54,3 @@ public function getCurrentAction()
     return ['controller' => $class, 'method' => $method];
 }
 ```
-
-另外推荐近期完成的两个 Laravel 拓展包：
-
-- [overtrue/laravel-lang](https://github.com/overtrue/laravel-lang) 基于 [Laravel4-lang](https://github.com/caouecs/Laravel4-lang) 的 44 语种语言文件
-- [overtrue/laravel-pinyin](https://github.com/overtrue/laravel-pinyin) Laravel 中文转拼音， 基于 [overtrue/pinyin](https://github.com/overtrue/pinyin)

@@ -2,6 +2,8 @@
 layout: post
 title: 使用PHP脚本远程部署git项目
 excerpt: 以Coding上私有库的部署为例来讲解如何使用Coding的hook服务结合PHP脚本来自动部署到生产环境的服务器
+categories: [Linux]
+tags: [Git]
 ---
 
 2015第一篇文章，没啥技术含量，权当作个笔记。
@@ -31,7 +33,7 @@ excerpt: 以Coding上私有库的部署为例来讲解如何使用Coding的hook�
 3.用户公钥（用于git clone时认证权限）
 
 ```shell
- ssh-keygen -t rsa -C "anzhengchao@gmail.com"
+ ssh-keygen -t rsa -C "zhangzhny1@gmail.com"
  # 然后一直回车就行
  # 生成的文件通常是 /root/.ssh/id_rsa，如果非root用户请查看提示上的路径
 ```
@@ -66,8 +68,8 @@ excerpt: 以Coding上私有库的部署为例来讲解如何使用Coding的hook�
 4.修改git配置
 
 ```shell
- git config --global user.name "overtrue" 
- git config --global user.email "anzhengchao@gmail.com" # 邮箱请与conding上一致
+ git config --global user.name "zhny" 
+ git config --global user.email "zhangzhny1@gmail.com" # 邮箱请与conding上一致
 ```
 
 ## 在代码托管网站
@@ -105,4 +107,3 @@ excerpt: 以Coding上私有库的部署为例来讲解如何使用Coding的hook�
 
 OK，稍微一几秒，正常的话你在代码里配置的目标目录里就会有你的项目文件了。
 
-有问题请随时反馈：https://gist.github.com/overtrue/0bf1cd704bf804de2e2c
