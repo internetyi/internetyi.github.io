@@ -2,7 +2,6 @@
 layout: post
 title: GitHub windows客户端报https错误解决办法
 excerpt: GitHub windows客户端报Protocol https not supported or disabled in libcurl问题解决方法
-url: github-windows-https-error
 categories: [其他]
 tags: [Git]
 ---
