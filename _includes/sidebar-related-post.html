@@ -1,26 +1,28 @@
-<h3>Related Articles</h3>
-{% for post in site.related_posts %}
-<section class="repo-card">
-    <a href="{{ site.url }}{{ post.url }}" target="_blank">
-        <div class="repo-card-image geopattern" data-pattern-id="{{ post.title }}">
-            <h3 class="repo-card-title">{{ post.title | truncatewords:8 }}</h3>
-        </div>
-        <div class="repo-card-body-wrapper">
-            <div class="repo-card-body">
-                <p class="repo-card-description">{{ post.excerpt | strip_html | strip | truncatewords:15 }}</p>
-               <div class="repo-card-meta">
-                    <span class="meta-info tooltipped tooltipped-n PHP" aria-label="{{ post.categorie }} 分类">
-                        <span class="octicon octicon-versions"></span> {{ post.categorie }} 
-                    </span>
-                    <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.tags | array_to_sentence_string }} 标签">
-                        <span class="octicon octicon-tag"></span> {{ post.tags | first }}
-                    </span>
-                    <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.date | date: "%Y/%m/%d" }} 发布">
-                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
-                    </span>
+{% if site.related_posts %}
+    <h3>Related Articles</h3>
+    {% for post in site.related_posts limit:5 %}
+    <section class="repo-card">
+        <a href="{{ site.url }}{{ post.url }}">
+            <div class="repo-card-image geopattern" data-pattern-id="{{ post.title }}">
+                <h3 class="repo-card-title">{{ post.title | truncatewords:5 }}</h3>
+            </div>
+            <div class="repo-card-body-wrapper">
+                <div class="repo-card-body">
+                    <p class="repo-card-description">{{ post.excerpt | strip_html | strip | truncatewords:10 }}</p>
+                   <div class="repo-card-meta">
+                        <span class="meta-info tooltipped tooltipped-n PHP" aria-label="{{ post.categorie }} 分类">
+                            <span class="octicon octicon-versions"></span> {{ post.categorie }} 
+                        </span>
+                        <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.tags | array_to_sentence_string }} 标签">
+                            <span class="octicon octicon-tag"></span> {{ post.tags | first }}
+                        </span>
+                        <span class="meta-info tooltipped tooltipped-n" aria-label="{{ post.date | date: "%Y/%m/%d" }} 发布">
+                            <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </a>
-</section>
-{% endfor %}
+        </a>
+    </section>
+    {% endfor %}
+{% endif %}
