@@ -2,6 +2,8 @@
 layout: post
 title: 78 款 Markdown 工具推荐
 excerpt: Markdown是一种易写易读的文本标记语言。本文介绍了编写、查看 Markdown 的78种工具，涵盖桌面端、移动端和 web 端。
+categories: [开发工具]
+tags: [Markdown, 编辑器]
 ---               
 
 [Markdown](http://whatismarkdown.com/){:target="_blank"} 是一种易写易读的文本标记语言。本文介绍了编写、查看 Markdown 的78种工具，涵盖桌面端、移动端和 web 端。

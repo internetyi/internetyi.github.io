@@ -2,6 +2,8 @@
 layout: post
 title: PHP学习资料分享
 excerpt: 自己的PHP学习笔记、一些常用的PHP资料。
+categories: [后端开发]
+tags: [PHP]
 ---
 
 # PHP Learning Resources [PHP学习资料]

@@ -2,6 +2,8 @@
 layout: post
 title: 常见开源消息系统
 excerpt: 消息系统的作用：异步处理、削减峰值、减少组件之间的耦合。
+categories: [后端开发]
+tags: [消息队列]
 ---
 
 # 常见开源消息系统

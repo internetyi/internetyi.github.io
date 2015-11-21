@@ -2,6 +2,8 @@
 layout: post
 title: memcache的最佳实践方案
 excerpt: memcache的最佳实践方案
+categories: [后端开发]
+tags: [Memcache, Nosql]
 ---
 
 ## 基本问题
