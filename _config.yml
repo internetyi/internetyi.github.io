@@ -31,8 +31,16 @@ defaults: []
 
 kramdown:
   input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
   enable_coderay: true
   toc_levels: "1,2,3,4,5,6" 
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 
 gems:
   - jemoji
