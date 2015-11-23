@@ -15,7 +15,8 @@ Git 和 Github 秘籍，灵感来自于 [Zach Holman](https://github.com/holman)
 # 目录
 
 * TOC
-{:toc}
+  
+  {:toc}
 
 ## GitHub
 
@@ -414,7 +415,9 @@ Issues 和 Pull requests 里可以添加复选框，语法如下（注意空白�
       
       ``` 
         ``` 
-          - [x] Moon
+          ``` 
+            - [x] Moon
+          ```
         ```
       ```
       
@@ -422,8 +425,10 @@ Issues 和 Pull requests 里可以添加复选框，语法如下（注意空白�
       
       ``` 
         ``` 
-          - [ ] Deimos
-          - [ ] Phobos
+          ``` 
+            - [ ] Deimos
+            - [ ] Phobos
+          ```
         ```
       ```
 
@@ -767,7 +772,7 @@ $ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s 
 
 可以看到:
 
-![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)
+![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)%Creset' --abbrev-commit --date=relative' onerror="if(failImgCache.length>5000){failImgCache.clear();}failImgCache.push(this.getAttribute('src'));this.src='style/imgErr.gif';$(this).closest('.md-image').addClass('md-img-error').removeClass('md-img-loaded');this.onload=''" onload ="loadedImgCache.push(this.getAttribute('src'));$(this).closest('.md-image').addClass('md-img-loaded').removeClass('md-img-error');" />
 
 这要归功于 [Palesz](http://stackoverflow.com/users/88355/palesz) 在 stackoverflow 的回答。
 
@@ -890,7 +895,7 @@ $ git config --global alias.ac 'add -A . && commit'
 | `git tags`     | `git tag -l`                             | `git config --global alias.tags 'tag -l'` |
 | `git branches` | `git branch -a`                          | `git config --global alias.branches 'branch -a'` |
 | `git cleanup`  | `git branch --merged                     | grep -v '*'                              |
-| `git remotes`  | `git remote -v`                          | `git config --global alias.remotes 'remote -v'` |
+| `git remotes`  | `git remote -v`                          | -                                        |
 | `git lg`       | `git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --` | `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"` |
 
 #### 自动更正
