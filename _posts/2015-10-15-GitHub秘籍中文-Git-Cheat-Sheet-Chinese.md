@@ -471,14 +471,18 @@ Issues 和 Pull requests 里可以添加复选框，语法如下（注意空白�
 - [x] Earth
       
       ``` 
-        - [x] Moon
+        ``` 
+          - [x] Moon
+        ```
       ```
       
 - [x] Mars
       
       ``` 
-        - [ ] Deimos
-        - [ ] Phobos
+        ``` 
+          - [ ] Deimos
+          - [ ] Phobos
+        ```
       ```
 
 [*进一步了解 Markdown 文件中的任务列表*](https://github.com/blog/1825-task-lists-in-all-markdown-documents)
