@@ -32,6 +32,7 @@ defaults: []
 kramdown:
   input: GFM
   enable_coderay: true
+  toc_levels: "1,2,3,4,5,6" 
 
 gems:
   - jemoji
