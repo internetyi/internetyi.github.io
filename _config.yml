@@ -18,13 +18,7 @@ source_code: https://github.com/internetyi/internetyi.github.io
 static: http://static.zhnytech.com/blog
 
 # Build settings
-# markdown:    kramdown
-markdown: rdiscount
-
-rdiscount:
-      extensions:
-            - generate_toc
-
+markdown:    kramdown
 highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
