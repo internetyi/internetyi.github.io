@@ -1,6 +1,6 @@
 {% if site.related_posts %}
     <h3>Related Articles</h3>
-    {% for post in site.related_posts limit:5 %}
+    {% for post in site.related_posts limit:8 %}
     <section class="repo-card">
         <a href="{{ site.url }}{{ post.url }}">
             <div class="repo-card-image geopattern" data-pattern-id="{{ post.title }}">
