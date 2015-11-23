@@ -104,5 +104,5 @@ class Localizer
 end
 
 
-localizer = Localizer.new('_posts', 'images')
+localizer = Localizer.new('_posts', 'assets/images')
 localizer.localize_images
