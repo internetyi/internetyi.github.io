@@ -15,7 +15,7 @@ Git 和 Github 秘籍，灵感来自于 [Zach Holman](https://github.com/holman)
 # 目录
 
 * TOC
-{:toc}
+\{:toc\}
 
 ## GitHub
 
@@ -41,7 +41,7 @@ Git 和 Github 秘籍，灵感来自于 [Zach Holman](https://github.com/holman)
 
 ### 查看用户的全部 Commit 历史
 
-在 Commits 页面 URL 后加上 `?author={user}` 查看用户全部的提交。
+在 Commits 页面 URL 后加上 `?author=\{user\}` 查看用户全部的提交。
 
 ``` 
 https://github.com/rails/rails/commits/master?author=dhh
@@ -68,7 +68,7 @@ $ git clone https://github.com/tiimgreen/github-cheat-sheet
 当你查看某个仓库的分支（Branches）页面（紧挨着 Commits 链接）时
 
 ``` 
-https://github.com/{user}/{repo}/branches
+https://github.com/\{user\}/\{repo\}/branches
 ```
 
 你会看到一个包含所有未合并的分支的列表。
@@ -82,10 +82,10 @@ https://github.com/{user}/{repo}/branches
 如果要在 GitHub 上直接比较两个分支，可以使用如下形式的 URL ：
 
 ``` 
-https://github.com/{user}/{repo}/compare/{range}
+https://github.com/\{user\}/\{repo\}/compare/\{range\}
 ```
 
-其中 `{range} = master...4-1-stable`
+其中 `\{range\} = master...4-1-stable`
 
 例如：
 
@@ -95,11 +95,11 @@ https://github.com/rails/rails/compare/master...4-1-stable
 
 ![Rails branch compare example](http://i.imgur.com/tIRCOsK.png)
 
-`{range}` 参数还可以使用下面的形式:
+`\{range\}` 参数还可以使用下面的形式:
 
 ``` 
-https://github.com/rails/rails/compare/master@{1.day.ago}...master
-https://github.com/rails/rails/compare/master@{2014-10-04}...master
+https://github.com/rails/rails/compare/master@\{1.day.ago\}...master
+https://github.com/rails/rails/compare/master@\{2014-10-04\}...master
 ```
 
 *日期格式 `YYYY-MM-DD`*
@@ -120,7 +120,7 @@ https://github.com/rails/rails/compare/master...4-1-stable.patch
 想要对派生仓库（Forked Repository）之间的分支进行比较，可以使用如下的 URL：
 
 ``` 
-https://github.com/user/repo/compare/{foreign-user}:{branch}...{own-branch}
+https://github.com/user/repo/compare/\{foreign-user\}:\{branch\}...\{own-branch\}
 ```
 
 例如：
@@ -226,7 +226,7 @@ $ git commit -m "Fix screwup, fixes #12"
 
 如果你想引用到同一个仓库中的一个 Issue，只需使用井号 `#` 加上 Issue 号，这样就会自动创建到此 Issue 的链接。
 
-要链接到其他仓库的 Issue ，就使用`{user}/{repo}#ISSUE_NUMBER`的方式，例如`tiimgreen/toc#12`。
+要链接到其他仓库的 Issue ，就使用`\{user\}/\{repo\}#ISSUE_NUMBER`的方式，例如`tiimgreen/toc#12`。
 
 ![Cross-Link Issues](https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67)
 
@@ -309,7 +309,7 @@ Github 上使用最多的5个表情符号是：
 仓库中的图片可以被直接引用：
 
 ``` 
-![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/image.gif)
+![Alt Text](https://github.com/\{user\}/\{repo\}/raw/master/path/to/image.gif)
 ```
 
 ![Peter don't care](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
@@ -448,7 +448,7 @@ Markdown文件里链接到内部内容时推荐使用相对链接。
 
 ### GitHub Pages 的元数据与插件支持
 
-在 Jekyll 页面和文章里，仓库信息可在 `site.github` 命名空间下找到，也可以显示出来，例如，使用 `{{ site.github.project_title }}`显示项目标题。
+在 Jekyll 页面和文章里，仓库信息可在 `site.github` 命名空间下找到，也可以显示出来，例如，使用 `\{\{ site.github.project_title \}\}`显示项目标题。
 
 Jemoji 和 jekyll-mentions 插件为你的 Jekyll 文章和页面增加了[emoji](#emojis)和[@mentions](https://github.com/blog/821)功能。
 
@@ -771,7 +771,7 @@ $ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s 
 
 可以看到:
 
-![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)%Creset' --abbrev-commit --date=relative' onerror="if(failImgCache.length>5000){failImgCache.clear();}failImgCache.push(this.getAttribute('src'));this.src='style/imgErr.gif';$(this).closest('.md-image').addClass('md-img-error').removeClass('md-img-loaded');this.onload=''" onload ="loadedImgCache.push(this.getAttribute('src'));$(this).closest('.md-image').addClass('md-img-loaded').removeClass('md-img-error');" />
+![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)%Creset' --abbrev-commit --date=relative' onerror="if(failImgCache.length>5000)\{failImgCache.clear();\}failImgCache.push(this.getAttribute('src'));this.src='style/imgErr.gif';$(this).closest('.md-image').addClass('md-img-error').removeClass('md-img-loaded');this.onload=''" onload ="loadedImgCache.push(this.getAttribute('src'));$(this).closest('.md-image').addClass('md-img-loaded').removeClass('md-img-error');" />
 
 这要归功于 [Palesz](http://stackoverflow.com/users/88355/palesz) 在 stackoverflow 的回答。
 
