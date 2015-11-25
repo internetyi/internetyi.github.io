@@ -15,7 +15,7 @@ Git 和 Github 秘籍，灵感来自于 [Zach Holman](https://github.com/holman)
 # 目录
 
 * TOC
-\{:toc\}
+{:toc}
 
 ## GitHub
 
