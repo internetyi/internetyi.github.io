@@ -64,7 +64,7 @@ css: ['pages/index.css']
           {% if paginator.previous_page == 1 %}
               <a href="/" class="btn btn-outline">&laquo;</a>
           {% else %}
-              <a href="/page{{paginator.previous_page}}"  class="btn btn-outline">&laquo;</a>
+              <a href="/page/{{paginator.previous_page}}/"  class="btn btn-outline">&laquo;</a>
           {% endif %}
         {% else %}
             <button disabled="disabled" href="javascript:;" class="btn btn-outline">&laquo;</button>
