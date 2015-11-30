@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}{% if paginator.page && paginator.page > 1 %} &mdash; 第{{ paginator.page }}页{% endif %}</title>
     <link rel="stylesheet" href="/assets/css/components/octicons.css">
     <link rel="stylesheet" href="/assets/css/components/collection.css">
     <link rel="stylesheet" href="/assets/css/components/repo-card.css">
