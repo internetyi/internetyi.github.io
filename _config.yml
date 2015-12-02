@@ -36,6 +36,8 @@ redcarpet:
     - fenced_code_blocks
     - no_intra_emphasis
     - smart
+  with_toc_data: true
+
 
 kramdown:
   input: GFM
