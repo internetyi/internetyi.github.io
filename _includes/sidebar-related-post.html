@@ -2,7 +2,7 @@
     <h3>Related Articles</h3>
     {% for post in site.related_posts limit:8 %}
     <section class="repo-card">
-        <a href="{ post.url  | prepend: site.baseurl }}">
+        <a href="{{ post.url  | prepend: site.baseurl }}">
             <div class="repo-card-image geopattern" data-pattern-id="{{ post.title }}">
                 <h3 class="repo-card-title">{{ post.title | truncate:25 }}</h3>
             </div>
