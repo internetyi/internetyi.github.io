@@ -39,7 +39,7 @@
     <meta property="og:image" content="{{ page.photo_url }}">
         {% endif %}
     {% endif %}
-    <meta property="og:url" content="{{ page.url  | prepend: site.baseurl | remove_first:'index.html' }}">
+    <meta property="og:url" content="{{ page.url | remove_first:'index.html' }}">
     <meta property="og:site_name" content="{{ site.domain }}">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="zh_CN" />
