@@ -32,10 +32,10 @@ layout: default
             </div>
             <div class="entry-nav clearfix">
                 {% if page.next %}
-                    <span class="left-nav">上一篇：<a href="{{ page.next.url }}" class="next-link" title="{{ page.next.title }}">{{ page.next.title | truncate:30 }}</a></span>
+                    <span class="left-nav">上一篇：<a href="{{ page.next.url | prepend: site.baseurl }}" class="next-link" title="{{ page.next.title }}">{{ page.next.title | truncate:30 }}</a></span>
                 {% endif %}
                 {% if page.previous %}
-                    <span class="right-nav">下一篇：<a href="{{ page.previous.url }}" class="previous-link"  title="{{ page.previous.title }}">{{ page.previous.title | truncate:30 }}</a></span>
+                    <span class="right-nav">下一篇：<a href="{{ page.previous.url | prepend: site.baseurl }}" class="previous-link"  title="{{ page.previous.title }}">{{ page.previous.title | truncate:30 }}</a></span>
                 {% endif %}
             </div>
             <div class="comment">
