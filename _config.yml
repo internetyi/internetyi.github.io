@@ -18,7 +18,7 @@ source_code: https://github.com/internetyi/internetyi.github.io
 static: http://static.zhnytech.com/blog
 
 # Build settings
-markdown:    redcarpet
+markdown:    kramdown
 highlighter: true
 lsi:         true
 excerpt_separator: "\n\n"
@@ -46,6 +46,7 @@ kramdown:
     - autolink
     - footnotes
     - smart
+  autolink : true
   enable_coderay: true
   toc_levels: "1,2,3,4,5,6" 
   enable_coderay: true
