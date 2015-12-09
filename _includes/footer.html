@@ -14,7 +14,7 @@
             <ul class="site-footer-links mobile-hidden">
                 {% for nav in site.navs %}
                 <li>
-                    <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+                    <a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
                 </li>
                 {% endfor %}
                 <li>
@@ -25,9 +25,9 @@
             </ul>
         </div>
     </footer>
-    <script src="/assets/js/sns.js"></script>
-    <script src="/assets/js/geopattern.js"></script>
-    <script src="/assets/js/prism.js"></script>
+    <script src="{{ site.url }}/assets/js/sns.js"></script>
+    <script src="{{ site.url }}/assets/js/geopattern.js"></script>
+    <script src="{{ site.url }}/assets/js/prism.js"></script>
     <script>
       jQuery(document).ready(function($) {
         // geopattern
