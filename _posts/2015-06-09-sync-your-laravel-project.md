@@ -14,7 +14,7 @@ tags: [Git]
 
 这里假设我们的项目叫做 `blog`, 然后我们第一步要做的事情是添加官方`git`源:
 
-```shell
+``` shell
 cd blog # 切到项目根目录
 git remote add laravel https://github.com/laravel/laravel # 添加一个源
 ```
@@ -27,11 +27,11 @@ git remote add laravel https://github.com/laravel/laravel # 添加一个源
 
 #### 拉取指定的 Laravel 分支
 
-  > 注意：在我们拉取 Laravel 源的代码前，请确认你的修改都已经保存并 `commit`。
+> 注意：在我们拉取 Laravel 源的代码前，请确认你的修改都已经保存并 `commit`。
 
-  ```shell
+``` shell
   git pull laravel master
-  ```
+```
 
   这里我们从 `laravel` 的源拉取 `master` 分支，当然你也可以拉取其它分支的代码。
 
