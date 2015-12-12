@@ -98,6 +98,7 @@ navs:
   -
     href: http://weibo.com/internetyi
     label: Weibo
+    target: _blank
     outlink: true
 
   -
