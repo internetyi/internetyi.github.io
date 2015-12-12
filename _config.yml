@@ -93,11 +93,12 @@ navs:
     href: https://github.com/internetyi
     label: GitHub
     target: _blank
+    outlink: true
 
   -
     href: http://weibo.com/internetyi
     label: Weibo
-    target: _blank
+    outlink: true
 
   -
     href: /bookmark.html
