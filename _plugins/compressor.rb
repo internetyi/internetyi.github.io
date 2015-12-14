@@ -16,7 +16,7 @@
 # third-party lib. I'm not sure if GitHub has this
 # extension. But the compressor for HTML files works OK.
 # 
-# For HTML files it uses Alan Moore's regexp : 
+# For HTML files it uses Alan Moore's regexp :
 # http://stackoverflow.com/questions/5312349/minifying-final-html-output-using-regular-expressions-with-codeigniter
 # It removes spaces between HTML, excepted within
 # <textarea> and <pre> code, so you don't get into trouble!
