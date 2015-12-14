@@ -1,5 +1,3 @@
-require 'jekyll/post'
-
 module RelatedPosts
 
   # Used to remove #related_posts so that it can be overridden
