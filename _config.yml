@@ -20,7 +20,7 @@ static: http://static.zhnytech.com/blog
 # Build settings
 markdown:    kramdown
 highlighter: true
-lsi:         true
+#lsi:         true
 excerpt_separator: "\n\n"
 
 source:      .
