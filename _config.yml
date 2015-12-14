@@ -5,28 +5,28 @@ description: 网名zhny，PHP工程师，从事web相关的开发工作。开源
 keywords: Laravel,技术博客,PHP笔记,web 开发笔记,技术分享,zhny,zhny‘s Blog
 skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text, OmniGaffale, OminiPlan]
 
-timezone:    PRC
+timezone: PRC
 encoding: "utf-8"
 
 url: http://blog.zhnytech.com
-baseurl:  "/"
-domain:    blog.zhnytech.com
-permalink:     /articles/:year/:month/:day/:title.html
+baseurl: "/"
+domain: blog.zhnytech.com
+permalink: /articles/:year/:month/:day/:title.html
 paginate_path: 'page/:num'
-paginate:   10
+paginate: 10
 source_code: https://github.com/internetyi/internetyi.github.io
 static: http://static.zhnytech.com/blog
 
 # Build settings
-markdown:    kramdown
+markdown: kramdown
 highlighter: true
-#lsi:         true
+lsi: true
 excerpt_separator: "\n\n"
 
-source:      .
+source: .
 destination: ./_site
 
-quiet:    true
+quiet: true
 defaults: []
 
 redcarpet:
