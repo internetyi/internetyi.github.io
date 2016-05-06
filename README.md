@@ -1,6 +1,5 @@
-博客
-===
+# 博客
 
-http://github.zhnytech.com/
+http://blog.zhnytech.com/
 
 终于还是告别了wordpress。:see_no_evil:  ~~~
