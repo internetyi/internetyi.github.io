@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init">
 <head>
+    <link rel="dns-prefetch" href="http://static.zhnytech.com/">
+    <link rel="dns-prefetch" href="http://hm.baidu.com/">
+    <link rel="dns-prefetch" href="http://zhny.disqus.com/">
+    <link rel="dns-prefetch" href="http://disqus.com/">
+    <link rel="dns-prefetch" href="http://a.disquscdn.com/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -47,24 +52,24 @@
     <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
     {% endif %}
     <link rel="alternate" type="application/feed+xml" title="zhny" href="{{ site.url }}/feed.xml">
-    <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/images/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/assets/images/apple-touch-icon-{% if site.ios_app_name %}{{site.ios_app_name}}-{% endif %}72x72-precomposed.png"> 
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/assets/images/apple-touch-icon-114x114-precomposed.png">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/octicons.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/collection.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/repo-card.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/sections/repo-list.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/sections/mini-repo-list.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/boxed-group.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/common.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/prism.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/responsive.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/pages/github.css">
+    <link rel="shortcut icon" href="{{ site.static }}/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.static }}/assets/images/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.static }}/assets/images/apple-touch-icon-{% if site.ios_app_name %}{{site.ios_app_name}}-{% endif %}72x72-precomposed.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.static }}/assets/images/apple-touch-icon-114x114-precomposed.png">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/components/octicons.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/components/collection.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/components/repo-card.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/sections/repo-list.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/sections/mini-repo-list.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/components/boxed-group.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/globals/common.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/globals/prism.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/globals/responsive.css">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/pages/github.css">
     {% for css in page.css %}
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/{{css}}">
+    <link rel="stylesheet" href="{{ site.static }}/assets/css/{{css}}">
     {% endfor %}
-    <script src="{{ site.url }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.static }}/assets/js/jquery.min.js"></script>
 </head>
 <body class="{{ page.class }}">
     <header class="site-header">
