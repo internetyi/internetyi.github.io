@@ -54,7 +54,7 @@ kramdown:
   syntax_highlighter: rouge
   entity_output: as_char
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  yntax_highlighter_opts
+  yntax_highlighter_opts :
     # line_numbers:  nil
     wrap: div
     line_numbers: inline
