@@ -70,7 +70,7 @@ gems:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-sitemap
-  #- jekyll-html-pipeline
+  - jekyll-html-pipeline
 
 
 disqus:
