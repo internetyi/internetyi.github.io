@@ -54,14 +54,14 @@ kramdown:
   syntax_highlighter: rouge
   entity_output: as_char
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  coderay:
-    # coderay_line_numbers:  nil
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+  yntax_highlighter_opts
+    # line_numbers:  nil
+    wrap: div
+    line_numbers: inline
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
 
 
 gems:
