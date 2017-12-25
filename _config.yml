@@ -17,7 +17,7 @@ paginate: 10
 source_code: http://github.com/internetyi/internetyi.github.io
 static: //static.zhnytech.com/blog
 
-# Build settings 
+# Build settings
 markdown: kramdown
 highlighter: true
 #lsi: true
