@@ -14,7 +14,7 @@ domain: blog.zhnytech.com
 permalink: /articles/:year/:month/:day/:title.html
 paginate_path: 'page/:num'
 paginate: 10
-source_code: http://github.com/internetyi/internetyi.github.io
+source_code: http://github.com/internetyi
 static: //static.zhnytech.com/blog
 
 # Build settings 
@@ -64,7 +64,7 @@ kramdown:
     css: style
 
 
-gems:
+plugins:
   - jemoji
   - rouge
   - jekyll-paginate
@@ -90,8 +90,8 @@ navs:
     label: Open-Source
 
   -
-    href: https://github.com/internetyi
-    label: GitHub
+    href: https://git.zhnytech.com/internetyi
+    label: Git
     target: _blank
     outlink: true
 
