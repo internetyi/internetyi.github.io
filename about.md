@@ -13,7 +13,7 @@ zhny
 ## 概况
 
 - 邮箱：zhangzhny1#gmail.com
-- 主页：[http://blog.zhnytech.com](http://blog.zhnytech.com)
+- 主页：[http://blog.zhnytech.com](https://blog.zhnytech.com)
 - 微博：[@internetyi](http://weibo.com/internetyi)
 
 计算机专业毕业，{{ current_year | minus: 2012 }} 年在职工作经验，{{ current_year | minus: 2012 }} 年 web 开发经验。

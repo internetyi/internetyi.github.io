@@ -14,7 +14,7 @@ domain: blog.zhnytech.com
 permalink: /articles/:year/:month/:day/:title.html
 paginate_path: 'page/:num'
 paginate: 10
-source_code: http://github.com/internetyi
+source_code: https://git.zhnytech.com/internetyi
 static: //static.zhnytech.com/blog
 
 # Build settings 
