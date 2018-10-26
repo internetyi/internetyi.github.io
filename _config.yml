@@ -91,13 +91,13 @@ navs:
 
   -
     href: https://git.zhnytech.com/internetyi
-    label: Git
+    label: 私有Git
     target: _blank
     outlink: true
 
   -
-    href: http://weibo.com/internetyi
-    label: Weibo
+    href: https://doc.zhnytech.com/
+    label: 技术文档
     target: _blank
     outlink: true
 
