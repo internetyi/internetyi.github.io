@@ -30,13 +30,20 @@ quiet: true
 defaults: []
 
 redcarpet:
+  input: GFM
   extensions:
     - tables
-    - autolink
     - fenced_code_blocks
-    - no_intra_emphasis
     - footnotes
     - smart
+    - hard_wrap
+    - autolink
+    - strikethrough
+    - superscript
+    - with_toc_data
+    - highlight
+    - prettify
+    - no_intra_emphasis
   with_toc_data: true
   autolink : true
   enable_coderay: true
