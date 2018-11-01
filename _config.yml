@@ -18,7 +18,7 @@ source_code: https://git.zhnytech.com/internetyi
 static: //static.zhnytech.com/blog
 
 # Build settings 
-markdown: rdiscount
+markdown: redcarpet
 highlighter: true
 #lsi: true
 excerpt_separator: "\n\n"
