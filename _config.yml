@@ -18,7 +18,7 @@ source_code: https://git.zhnytech.com/internetyi
 static: //static.zhnytech.com/blog
 
 # Build settings 
-markdown: redcarpet
+markdown: rdiscount
 highlighter: true
 #lsi: true
 excerpt_separator: "\n\n"
@@ -28,6 +28,40 @@ destination: ./_site
 
 quiet: true
 defaults: []
+
+rdiscount:
+  input: GFM
+  extensions:
+    - tables
+    - fenced_code_blocks
+    - footnotes
+    - smart
+    - hard_wrap
+    - autolink
+    - strikethrough
+    - superscript
+    - with_toc_data
+    - highlight
+    - prettify
+    - no_intra_emphasis
+  with_toc_data: true
+  autolink : true
+  enable_coderay: true
+  toc_levels: "1,2,3,4,5,6" 
+  enable_coderay: true
+  auto_ids: true
+  footnote_nr: 1
+  syntax_highlighter: rouge
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  yntax_highlighter_opts :
+    # line_numbers:  nil
+    wrap: div
+    line_numbers: inline
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
 
 redcarpet:
   input: GFM
