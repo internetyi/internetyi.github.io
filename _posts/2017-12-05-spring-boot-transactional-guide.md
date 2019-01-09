@@ -11,7 +11,7 @@ tags: [java]
 
 > 注意：`@Transactional` 只能用于public方法，其他方法不生效！
 
-```
+``` java
 //捕获所有异常并回滚
 @Transactional
 
@@ -30,7 +30,7 @@ tags: [java]
 #### 复杂事务
 手动指定事务commit 、rollback
 
-```
+``` java
 #注入事务管理bean
 @Autowired
 private PlatformTransactionManager transactionManager;
