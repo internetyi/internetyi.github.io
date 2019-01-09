@@ -1,7 +1,7 @@
 ---
 layout: post
 title: spring-boot 数据库事务使用指南
-excerpt: 简单事务 使用@Transactional 注解 注意：@Transactional 只能用于public方法，其他方法不生效！
+excerpt: 简单事务 使用`@Transactional` 注解 注意：`@Transactional` 只能用于public方法，其他方法不生效！
 categories: [后端开发]
 tags: [java]
 ---
