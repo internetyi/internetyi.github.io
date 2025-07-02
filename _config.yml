@@ -8,9 +8,9 @@ skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, S
 timezone: PRC
 encoding: "utf-8"
 
-# url: //blog.zhnytech.com
+url: //blog.zhny.dpdns.org
 baseurl: "/"
-# domain: blog.zhnytech.com
+domain: blog.zhny.dpdns.org
 permalink: /articles/:year/:month/:day/:title.html
 paginate_path: 'page/:num'
 paginate: 10
