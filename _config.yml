@@ -8,14 +8,14 @@ skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, S
 timezone: PRC
 encoding: "utf-8"
 
-url: //blog.zhnytech.com
+# url: //blog.zhnytech.com
 baseurl: "/"
-domain: blog.zhnytech.com
+# domain: blog.zhnytech.com
 permalink: /articles/:year/:month/:day/:title.html
 paginate_path: 'page/:num'
 paginate: 10
-source_code: https://git.zhnytech.com/internetyi
-static: //static.zhnytech.com/blog
+source_code: https://github.com/internetyi
+# static: //static.zhnytech.com/blog
 
 # Build settings 
 markdown: redcarpet
@@ -148,17 +148,17 @@ navs:
     href: /open-source.html
     label: Open-Source
 
-  -
-    href: https://git.zhnytech.com/internetyi
-    label: 私有Git
-    target: _blank
-    outlink: true
+  # -
+  #   href: https://git.zhnytech.com/internetyi
+  #   label: 私有Git
+  #   target: _blank
+  #   outlink: true
 
-  -
-    href: https://doc.zhnytech.com/
-    label: 技术文档
-    target: _blank
-    outlink: true
+  # -
+  #   href: https://doc.zhnytech.com/
+  #   label: 技术文档
+  #   target: _blank
+  #   outlink: true
 
   -
     href: /bookmark.html
