@@ -89,7 +89,7 @@ class PR {
 
 ``` php
     include("pr.class.php");
-    $url='http://blog.zhnytech.com/';
+    $url='http://blog.zhny.qzz.io/';
     $pr = new PR();
     echo $pr->get_google_pagerank($url);
 ```
